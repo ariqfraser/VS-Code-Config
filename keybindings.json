@@ -1,0 +1,55 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+alt+f",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+
+    /**
+    {
+        "command": "vscode-neovim.compositeEscape2",
+        "key": "j",
+        "when": "neovim.mode == insert && editorTextFocus",
+        "args": "j"
+    },
+	
+    {
+        "command": "vscode-neovim.compositeEscape1",
+        "key": "k",
+        "when": "neovim.mode == insert && editorTextFocus",
+        "args": "k"
+    },
+	*/
+
+    {
+        "key": "ctrl+e",
+        "command": "workbench.view.explorer"
+    },
+
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor",
+        "when": "editorTextFocus"
+    },
+
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor",
+        "when": "editorTextFocus"
+    },
+
+    {
+        "key": "shift+tab",
+        "command": "workbench.action.terminal.focusPreviousPane",
+        "when": "terminalFocus"
+    },
+
+    {
+        "key": "ctrl+s",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "sequence": ["workbench.action.files.save", "vscode-neovim.escape"]
+        }
+    }
+]

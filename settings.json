@@ -1,0 +1,73 @@
+{
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.autofetch": true,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "python.venvFolders": ["F:\\uni\\Honours\\_CODE\\py-word-aggregator\\venv"],
+    "vite.browserType": "system",
+    "vite.devCommand": "npm run dev",
+    "vite.port": 3000,
+    "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
+    "editor.inlineSuggest.enabled": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "html.format.indentHandlebars": true,
+    "vscode-neovim.neovimExecutablePaths.win32": "C:\\Program Files\\Neovim\\bin\\nvim.exe",
+    "vscode-neovim.highlightGroups.highlights": {
+        "Directory": "vim",
+        "IncSearch": {
+            "backgroundColor": "theme.editor.findMatchBackground",
+            "borderColor": "theme.editor.findMatchBorder"
+        },
+        "Search": {
+            "backgroundColor": "theme.editor.findMatchHighlightBackground",
+            "borderColor": "theme.editor.findMatchHighlightBorder"
+        },
+        "Visual": {
+            "backgroundColor": "theme.editor.selectionBackground"
+        },
+        "Conceal": "vim",
+        "Substitute": "vim"
+    },
+    "http.systemCertificates": false,
+    "craftos-pc.executablePath.windows": "C:\\Program Files\\CraftOS-PC\\CraftOS-PC.exe",
+    "craftos-pc.dataPath": "C:\\Users\\ariqf\\Documents\\ATM6",
+    "craftos-pc.executablePath.all": "C:\\Program Files\\CraftOS-PC\\CraftOS-PC.exe",
+    "editor.minimap.size": "fill",
+    "editor.minimap.enabled": false,
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
