@@ -1,6 +1,10 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
+        "key": "ctrl+alt+0",
+        "command": "workbench.action.toggleEditorGroupLayout"
+    },
+    {
         "key": "ctrl+alt+f",
         "command": "editor.action.formatDocument",
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
