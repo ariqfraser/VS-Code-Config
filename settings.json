@@ -36,7 +36,7 @@
     "vite.browserType": "system",
     "vite.devCommand": "npm run dev",
     "vite.port": 3000,
-    "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
     "editor.inlineSuggest.enabled": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -69,5 +69,8 @@
     },
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#ffc600"
     }
 }
